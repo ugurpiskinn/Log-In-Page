@@ -1,0 +1,40 @@
+.btn {
+  width: 437.17px;
+  height: 75.08px;
+  background: #000000;
+  border-radius: 20px;
+  margin-bottom: 48px;
+  label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+.google {
+  width: 437.17px;
+  height: 68.88px;
+  border: 2px solid #c0c0c0;
+  border-radius: 20px;
+  margin-bottom: 48px;
+  background-color: #fff;
+  cursor: pointer;
+  .icon {
+    background: url(../images/google.svg) transparent no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25.19px;
+    margin-right: 10px;
+    height: 27.92px;
+  }
+  .btn-txt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 43px;
+    color: #000000;
+    vertical-align: middle;
+  }
+}

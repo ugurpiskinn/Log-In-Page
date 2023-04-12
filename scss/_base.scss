@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Prompt&amp;display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+.container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  background-image: url(../images/right.svg);
+  background-size: cover;
+}
+.left {
+  width: 50%;
+  height: 100%;
+}
+.contain {
+  width: 465px;
+  height: 857px;
+  margin: 30px auto;
+}
